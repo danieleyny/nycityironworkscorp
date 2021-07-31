@@ -31,7 +31,17 @@ nav img{
 .nav-links {
   flex: 1;
   text-align: right;
+  
 }
+
+
+.nav-links ul li a.active {
+  font-weight: bolder;
+  padding: 4px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
 
 .nav-links ul li{
   list-style: none;
@@ -43,7 +53,7 @@ nav img{
 .nav-links ul li a{
   color: white;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .nav-links ul li:after{
@@ -110,12 +120,22 @@ nav .fa{
   .text-box h1{
       font-size: 20px;
   }
+  .nav-links ul li a:hover, .nav-links ul li a.active {
+    color: #5f9bce;
+  }
+
+  .nav-links ul li a.active, .nav-links ul li a:hover {
+    color: #5f9bce;
+    font-weight: bolder;
+  }
+
   .nav-links ul li{
     display: blocks;
+    
   }
   .nav-links{
     position: absolute;
-    background: #5f9bce;
+    background: #b1bcc5;
     height: 100vh;
     width: 200px; 
     top: 0;
@@ -123,6 +143,9 @@ nav .fa{
     text-align: left;
     z-index: 2;
     transition: .6s;
+    font-size: 40px;
+    box-sizing: border-box;
+  box-shadow: 5px 0 10px 3px rgb(2, 2, 2);
   }
   nav .fa{
     display: block;
@@ -837,9 +860,6 @@ footer small a:hover {
 }
 
 @media (max-width: 400px) {
-  nav ul {
-    width: 200px;
-  }
   #property-image-slider .slick-slide img,
   #map, #street {
     height: 245px;
