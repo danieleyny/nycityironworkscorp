@@ -10,7 +10,7 @@
 .header{
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.126), rgba(4, 9, 30, 0.482)), url(assets/images/picture.jpeg);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.331), rgba(4, 9, 30, 0.297)), url(assets/images/picture.jpeg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -218,11 +218,9 @@ h3 {
 
 h4 {
   font-size: 2.5rem;
-  color: #00aeef;
+  color: #5f9acec3;
   margin-bottom: 3rem;
 }
-
-
 
 
 
@@ -387,7 +385,7 @@ h4 {
 
 #properties-slider .property-details span {
   font-size: 0.8rem;
-  color: #444;
+  color: #5f9acef7;
   padding-right: 15px;
 }
 
@@ -408,7 +406,7 @@ h4 {
   font-size: 0.8rem;
   font-style: normal;
   margin-top: 0.5rem;
-  color: #444;
+  color: rgb(86, 92, 92);
 }
 
 /* end: nearby similar homes styles */
@@ -603,7 +601,23 @@ footer small a:hover {
 }
 
 @media (max-width: 767px) {
- 
+  #properties-slider .property-details span {
+    font-size: 1.6rem;
+    margin-right: 10px;
+  }
+  #properties-slider .price {
+    font-size: 1.8rem;
+    color: #59616a;
+    font-weight: 800;
+    margin: 0 0 0.5rem 0;
+  }
+  #properties-slider .property-details address {
+    font-size: .9rem;
+    font-style: normal;
+    margin-top: 0.5rem;
+    color: rgb(86, 92, 92);
+}
+
   h4 {
     font-size: 1.75rem;
   }
@@ -710,6 +724,23 @@ footer small a:hover {
     flex: 0 0 65%;
     flex-wrap: wrap;
   }
+  #properties-slider .property-details span {
+    font-size: 0.9rem;
+    margin-right: 10px;
+  }
+  #properties-slider .price {
+    font-size: 1.5rem;
+    color: #59616a;
+    font-weight: 800;
+    margin: 0 0 0.5rem 0;
+  }
+  #properties-slider .property-details address {
+    font-size: .8rem;
+    font-style: normal;
+    margin-top: 0.5rem;
+    color: rgb(86, 92, 92);
+}
+
   #property-details .property-stats-container {
     flex: 0 0 35%;
   }
