@@ -10,7 +10,7 @@
 .header{
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.507), rgba(4, 9, 30, 0.516)), url(assets/images/testimonials.jpg);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.507), rgba(4, 9, 30, 0.516)), url(assets/images/aboutus.jpeg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -253,6 +253,138 @@ h4 {
 
 
 
+/* Service Section */
+#services .services{
+  flex-direction: column;
+  text-align: center;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+#services .service-top{
+  width: 88%;
+  max-width: 0 auto;
+}
+
+
+#services .service-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+#services .service-item{
+  flex-basis: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 10px;
+  background-image: url(https://www.steelmastersnyc.com/wp-content/uploads/2018/12/iron-works.jpg);
+  background-size: cover;
+  margin: 10px 5%;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.contactusp {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #00aeef;
+}
+
+.container3 {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#services .service-item::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  opacity: .8;
+  z-index: -1;
+}
+
+.services .service-bottom .icon{
+  height: 80px;
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+#services .service-bottom .icon img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+#services .service-item h2{
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#services .service-item p{
+  color:white;
+  text-align: left;
+}
+
+.section-title{
+  font-size: 4rem;
+  font-weight: 300;
+  color: black;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  text-align: center;
+}
+.section-title span {
+  color: #00aeef;
+}
+
+.section-title2{
+  font-size: 2.8rem;
+  font-weight: 300;
+  color: black;
+  margin-bottom: 10px;
+  letter-spacing: .2rem;
+  text-align: center;
+}
+.section-title2 span {
+  color: crimson;
+}
+
+@media only screen and (min-width:768px){
+  /* Service Section */
+  #services .service-bottom .service-item{
+      flex-basis: 45%;
+      margin: 1.5%;
+  }
+  h1 .section-title .section-title2{
+    font-size: 7rem;
+}
+}
+
+@media only sreen and (min-width: 1200px){
+  #services .service-bottom .service-item{
+      flex-basis: 22%;
+      margin: 1.5%;
+  }
+}
 
 
 
@@ -511,79 +643,78 @@ h4 {
     color: crimson;
   }
 
-  /* review section */
-.testimonials {
-    padding: 40px 0;
-    background-image: #f1f1f1;
-    color: #434343;
-    text-align: center;
-    font-family:'STIX Two Math', serif;
-  }
-  
-  .inner {
-    max-width: 1200px;
-    margin: auto;
-    overflow: hidden;
-    padding: 0 20px;
-  }
-  
-  .border {
-    width: 160px;
-    height: 5px;
-    background: #6bff2b;
-    margin: 26px auto;
-  }
-  
-  .row{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .col {
-    flex: 33.33%;
-    min-width: 33.33%;
-    box-sizing: border-box;
-    padding: 15px;
-  }
-  
-  .testimonial {
-    background-image: url(https://images.unsplash.com/photo-1551554781-c46200ea959d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxMDc3MzY4OHx8ZW58MHx8fHw%3D&w=1000&q=80);
-    padding: 30px;
-  }
-  .testimonial img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%
-  }
-  
-  .name {
-    font-size: 20px;
-    font-style: italic;
-    margin: 20px 0;
-  }
-  
-  .stars {
-    color: #6ab04c;
-    margin-bottom: 20px;
-  }
-  
-  @media screen and (max-width: 960px) {
-    .col{
-      flex: 100%;
-      min-width: 80%;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .col{
-      flex: 100%;
-      margin: 20px;
-      min-width: 100%;
-    }
-  }
-/* End Testimonials */
+/* start: contact styles */
 
+#contact {
+    margin-bottom: 0;
+    background: #f8f9fa;
+    padding: 4rem 0 8rem;
+  }
+  
+  #form-container {
+    background: #fff;
+    padding: 3rem;
+    box-sizing: border-box;
+  }
+  
+  #form-container h3 {
+    color: #000;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 2rem;
+  }
+  
+  #form-container label {
+    display: block;
+    color: #000;
+    margin-top: 1rem;
+  }
+  
+  #form-container input, #form-container textarea {
+    display: block;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    width: 100%;
+    box-sizing: border-box;
+    height: 43px;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    font-size: 1rem;
+    color: #495057;
+  }
+  
+  #form-container textarea {
+    height: 170px;
+    margin-bottom: 2rem;
+    resize: none;
+  }
+
+  button.rounded {
+    background: #5f9bce;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    line-height: 1.5;
+    cursor: pointer;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    color: #5f9bce;
+    margin-bottom: 3rem;
+    font-family: "Playfair Display", serif;
+  font-weight: 800;
+  line-height: 1.2;
+  }
+  
+  h3 {
+    font-size: 1.4rem;
+    font-weight: 300;
+    border-bottom: 1px solid #999;
+    margin-bottom: 1rem;
+  }
+  /* end: contact us styles */
 
 /* start: footer styles */
 
@@ -761,6 +892,12 @@ footer small a:hover {
     margin-top: 0.5rem;
     color: rgb(86, 92, 92);
 }
+h2 {
+    font-size: 1.75rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
 
   h4 {
     font-size: 1.75rem;
@@ -861,15 +998,6 @@ footer small a:hover {
 @media (max-width: 575px) {
   #property-details {
     padding-top: 1rem;
-  }
-  .section-title{
-    font-size: 2.8rem;
-    font-weight: 300;
-    color: rgb(92, 85, 85);
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    letter-spacing: .2rem;
-    text-align: center;
   }
   #property-details .address-container {
     flex: 0 0 65%;
@@ -976,7 +1104,7 @@ footer small a:hover {
   #contact {
     padding: 4rem 0;
   }
-  #contact h4 {
+  #contact h2 {
     margin-bottom: 2rem;
   }
   #form-container {
@@ -995,7 +1123,6 @@ footer small a:hover {
   }
   
 }
-
 
 
 

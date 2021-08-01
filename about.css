@@ -296,7 +296,7 @@ h4 {
 .contactusp {
   font-size: 1.1rem;
   text-decoration: none;
-  color: #00aeef;
+  color: #5f9bce;
 }
 
 .container3 {
@@ -353,7 +353,7 @@ h4 {
   text-align: center;
 }
 .section-title span {
-  color: #00aeef;
+  color: #5f9bce;
 }
 
 .section-title2{
@@ -410,7 +410,7 @@ h4 {
 #property-details .home-icon {
   margin-right: 5px;
   font-size: 40px;
-  color: #00aeef;
+  color: #5f9bce;
 }
 
 #property-details .home-icon .fa {
@@ -628,7 +628,7 @@ h4 {
     
   }
   .section-title span {
-    color: #00aeef;
+    color: #5f9bce;
   }
   
   .section-title2{
@@ -804,7 +804,7 @@ footer .footer-subscribe input {
 footer button.right-rounded {
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
-  background: #00aeef;
+  background: #5f9bce;
   font-size: 16px;
   color: #000;
   padding: 10px 30px 9px;
