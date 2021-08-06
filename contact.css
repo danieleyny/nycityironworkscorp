@@ -10,7 +10,7 @@
 .header{
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.507), rgba(4, 9, 30, 0.516)), url(assets/images/aboutus.jpeg);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.507), rgba(4, 9, 30, 0.516)), url(assets/images/contactuspic.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -284,7 +284,7 @@ h4 {
   flex-direction: column;
   padding: 30px;
   border-radius: 10px;
-  background-image: url(https://www.steelmastersnyc.com/wp-content/uploads/2018/12/iron-works.jpg);
+  background-image: url(https://img.freepik.com/free-photo/young-student-guy-is-sitting-table-listening-someone-phone_295783-583.jpg?size=626&ext=jpg);
   background-size: cover;
   margin: 10px 5%;
   position: relative;
