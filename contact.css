@@ -10,7 +10,7 @@
 .header{
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.507), rgba(4, 9, 30, 0.516)), url(assets/images/contactuspic.jpg);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.507), rgba(4, 9, 30, 0.516)), url(assets/images/contactuspicture.jpeg);
   background-position: center;
   background-size: cover;
   position: relative;
